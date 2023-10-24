@@ -33,7 +33,8 @@ Ready to boost your productivity with Focus? Follow these simple steps:
 1. ⬇️ Clone this repository to your local machine.
 2. 🚀 Run the app using Flutter.
 3. 🚴 Start your Pomodoro timer and stay focused!
-4. 📊 Track your productivity and celebrate your accomplishments. 🥳
+4. 📊 Track your productivity and celebrate your accomplishments.
+5. 👈🏻 Navigate the app with simple swiping gestures. Swipe from right to left to access the Short/Long Break screen, or from bottom to top on the Pomodoro screen to access the Todo screen.
 
 ## Contribute 🤝
 
