@@ -17,7 +17,7 @@ class TodoPage extends HookWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          width: min(MediaQuery.of(context).size.width * 0.8, 700),
+          width: min(MediaQuery.of(context).size.width * 0.9, 700),
           height: min(MediaQuery.of(context).size.height * 0.65, 800),
           clipBehavior: Clip.hardEdge,
           decoration: BoxDecoration(
@@ -39,16 +39,12 @@ class TodoPage extends HookWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Consumer<TodoProvider>(
                     builder: (context, todos, _) {
-                      return ReorderableListView.builder(
+                      return ListView.builder(
                         itemCount: todos.lenght,
-                        onReorder: (oldIndex, newIndex) {
-                          todos.reorderTodos(oldIndex, newIndex);
-                        },
                         itemBuilder: (context, index) {
                           final todo = todos.todos[index];
 
                           return Container(
-                            key: ValueKey(todo.uuid),
                             padding: const EdgeInsets.symmetric(
                               horizontal: 20,
                               vertical: 10,
@@ -81,7 +77,12 @@ class TodoPage extends HookWidget {
                                 Text(
                                   "${todo.createdAt.hour.toString().padLeft(2, '0')}:${todo.createdAt.minute.toString().padLeft(2, '0')}",
                                 ),
-                                const SizedBox(width: 20),
+                                IconButton(
+                                  onPressed: () {
+                                    todos.removeTodo(todo);
+                                  },
+                                  icon: const Icon(Icons.delete_rounded),
+                                ),
                               ],
                             ),
                           );

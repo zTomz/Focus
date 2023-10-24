@@ -77,6 +77,7 @@ class MyApp extends StatelessWidget {
 
         return MaterialApp(
           title: 'Pomodoro Timer',
+          debugShowCheckedModeBanner: false,
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(
               seedColor: appColors.$1,
