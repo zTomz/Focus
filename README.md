@@ -18,12 +18,12 @@ Focus is a sleek and efficient Pomodoro Timer app developed with Flutter. It's d
 
 | Desktop Screenshots |  |
 | --- | --- |
-| ![Desktop Screenshot 1](assets\screenshots\windows-1.png) | ![Desktop Screenshot 2](assets\screenshots\windows-2.png) |
+| ![Desktop Screenshot 1](assets/screenshots/windows-1.png) | ![Desktop Screenshot 2](assets/screenshots/windows-2.png) |
 | *Pomodoro Screen* | *Short Break Screen* |
 
 | Mobile Screenshots |  |  |  |
 | --- | --- | --- | --- |
-| ![Mobile Screenshot 1](assets\screenshots\mobile-1.png) | ![Mobile Screenshot 2](assets\screenshots\mobile-2.png) | ![Mobile Screenshot 3](assets\screenshots\mobile-3.png) | ![Mobile Screenshot 4](assets\screenshots\mobile-4.png) |
+| ![Mobile Screenshot 1](assets/screenshots/mobile-1.png) | ![Mobile Screenshot 2](assets/screenshots/mobile-2.png) | ![Mobile Screenshot 3](assets/screenshots/mobile-3.png) | ![Mobile Screenshot 4](assets/screenshots/mobile-4.png) |
 | *Pomodoro Screen* | *Short Break Screen* | *Long Break Screen* | *Todos Screen* |
 
 ## Getting Started 🚀
